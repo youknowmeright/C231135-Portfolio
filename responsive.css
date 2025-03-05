@@ -9,6 +9,10 @@
         padding: 0;
         box-sizing: border-box;
       }
+      .logo-name
+      {
+        align-content: center;
+      }
 .container
 {display: flex;
     flex-direction: column;
@@ -51,6 +55,7 @@
     {
     
          margin-top: 20px;
+         margin-left: 12px;
         
         
     }
@@ -173,6 +178,10 @@
         .social-link
         {
             color: chocolate;
+        }
+        .ending
+        {
+            display: none;
         }
     
 }
