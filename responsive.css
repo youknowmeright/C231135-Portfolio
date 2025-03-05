@@ -147,6 +147,33 @@
             
         }
     
+        .footer
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+        .social-icons
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0px 0px;
+            padding: 0px 0px;
+            gap: 20px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .final
+        {
+            display: none;
+        }
+        .social-link
+        {
+            color: chocolate;
+        }
     
 }
   
