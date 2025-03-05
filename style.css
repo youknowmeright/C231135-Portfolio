@@ -362,9 +362,17 @@ width: 60%;
 margin-left: 280px;
 border: 1px solid chocolate;
 border-radius: 48%;
+margin-right: 180px;
 
 }
 
+.nav-button button
+{
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 10px;
+    color: aliceblue;
+}
 
 
 
