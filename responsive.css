@@ -1,6 +1,7 @@
 @media only screen  and (max-width: 576px) {
     body {
         overflow-x: hidden; 
+       
       }
 
 
@@ -8,7 +9,18 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+
+        margin-left: 0;
+        margin-right: 0;
       }
+      .container, .ux-case-study1 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
       .logo-name 
       {
         text-align: center;
@@ -188,6 +200,16 @@
         .ending
         {
             display: none;
+        }
+        .my-pic img
+        {
+            margin-right: 0px;
+        }
+        .imajes img
+        {
+            min-width: min-content;
+            overflow: hidden;
+            object-fit: cover;
         }
     
 }
