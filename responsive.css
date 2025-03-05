@@ -9,9 +9,15 @@
         padding: 0;
         box-sizing: border-box;
       }
-      .logo-name
+      .logo-name 
       {
-        align-content: center;
+        text-align: center;
+        margin : 0px 0px;
+      }
+      .container
+      {
+        margin-left: 0px;
+        margin-right: 0px;
       }
 .container
 {display: flex;
