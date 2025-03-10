@@ -11,7 +11,7 @@
         box-sizing: border-box;
 
         margin-left: 0;
-        margin-right: 0;
+      
       }
       .container, .ux-case-study1 {
         width: 100%;
@@ -212,7 +212,71 @@
             object-fit: cover;
         }
     
+
+        .sitenav h4 
+        {
+            display: none;
+        }
+        .logo-name
+        {
+            display: none;
+        }
+
+        
+        .navbar-mobile
+        {
+            display: block;
+        }
+        .bar-img img
+        {
+       background-color: brown;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #090909;
+    border-radius: 30px;
+    overflow: hidden;
+    width: fit-content
+}
+
+.search-box input {
+    border: none;
+    padding: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
+   
+    outline: none;
+    background-color: rgb(27, 27, 27);
+    flex: 1;
+}
+
+.search-box button {
+    background-color: rgb(27, 27, 27);
+    color: rgba(178, 58, 11, 0.648);
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #ce450096;
+}
+.title h5 
+{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 25px;
+
+} 
+.navbar-mobile 
+{
+    display: flex;
+    flex-direction: ROW;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
   
-  
-    
+}
