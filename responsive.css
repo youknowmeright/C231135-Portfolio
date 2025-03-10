@@ -18,6 +18,10 @@
         display: block;
         text-align: center;
       }
+      .intro-des
+{
+    display: none;
+}
 
 
 
@@ -105,12 +109,7 @@ button
         display: flex;
         flex-direction: column;
       }
-     .intro-des h5 
-     {
-
-       
-      display: block;
-    }
+   
 
     .main-body
     {
@@ -358,5 +357,21 @@ button
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
+.intro-des h5
+{
+    display: none;
+}
+
+
+/*final*/
+.intro, .intro-des, .intro-button {
+    display: none; /* Hide on mobile */
+}
+
+.intro-mobile {
+    display: block; /* Show on mobile */
+    text-align: center;
+}
+
   
 }

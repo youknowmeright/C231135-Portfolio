@@ -16,10 +16,7 @@
     justify-content: space-between;
     margin:40px 60px;
 }
-.intro-des
-{
-    display: none;
-}
+
 
 .sitenav
 {
@@ -382,6 +379,62 @@ margin-right: 180px;
     color: aliceblue;
 }
 
+
+.intro, .intro-des, .intro-button {
+    display: block; /* Hide on mobile */
+}
+
+.intro-mobile {
+    display: none; /* Show on mobile */
+    text-align: center;
+}
+
+
+/* .intro-button */
+.intro-button 
+{
+    display:inline-flex;
+    align-items: center;
+    background-color: #2b2828;
+    border-radius: 50px; /* Rounded border for the container */
+    padding: 5px;
+    border: 2px solid white;
+}
+
+/* button */
+button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 08px 8px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-button
+{
+    background-color: #FD6F00;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.hire-me-button 
+{
+    background-color: #282727;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+button:hover 
+{
+    opacity: 0.8;
+}
 
 
  
