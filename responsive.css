@@ -13,6 +13,71 @@
         margin-left: 0;
       
       }
+      .intro-mobile
+      {
+        display: block;
+        text-align: center;
+      }
+
+
+
+/* 
+      .intro-button 
+{
+    display:inline-flex;
+    align-items: center;
+    background-color: #2b2828;
+    border-radius: 50px; /* Rounded border for the container 
+    
+    border: 2px solid rgb(255, 90, 1);
+}
+
+button
+{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 05px 5px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-button
+{
+    background-color: #FD6F00;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.hire-me-button 
+{
+    background-color: #282727;
+    color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+*/
+.intro-button
+{
+    display: none;
+}
+.experience-left
+{
+    padding: 20px 30px;
+}
+
+      
+      .main-body{
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-left: 0px;
+        padding-right: 0px;
+     
+      }
       .container, .ux-case-study1 {
         width: 100%;
         margin-left: 0;
@@ -238,6 +303,7 @@
     border: 2px solid #090909;
     border-radius: 30px;
     overflow: hidden;
+    color: rgba(255, 90, 1, 0.637);
     width: fit-content
 }
 
@@ -248,6 +314,7 @@
     padding-left: 4px;
    
     outline: none;
+    color: rgb(255, 97, 6);
     background-color: rgb(27, 27, 27);
     flex: 1;
 }
@@ -277,6 +344,19 @@
     justify-content: space-evenly;
     align-items: center;
 
+}
+.any-projects
+{
+   padding: 0px 30px;
+   /* background-color: #1715151d */
+   background: linear-gradient(to right, rgb(22, 21, 21), rgb(93, 52, 1));
+
+}
+.submit-button
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
   
 }
